@@ -1,0 +1,5 @@
+export { default as Header } from "./Header"
+export { default as BasicInformation } from "./BasicInformation"
+export { default as RolesInformation } from "./RolesInformation"
+export { default as UploadProfileInformation } from "./UploadProfileInformation"
+export { default as Banner } from "./Banner"

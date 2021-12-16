@@ -1,0 +1,20 @@
+.container {
+  width: 100%;
+  height: 341px;
+  background-color: rgba(189, 223, 235, 0.29);
+  padding: 20px 40px;
+}
+
+.share-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+
+.photo-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

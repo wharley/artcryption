@@ -1,0 +1,5 @@
+export { default as SvgBell } from "./Bell"
+export { default as SvgSettings } from "./Settings"
+export { default as SvgChecked } from "./Checked"
+export { default as SvgUpload } from "./Upload"
+export { default as SvgAdd } from "./Add"
