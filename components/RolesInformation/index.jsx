@@ -1,5 +1,7 @@
 import React from "react"
-import { Card, CardActions, CardContent, Grid, Typography } from "@mui/material"
+import { CardActions, CardContent, Grid, Typography } from "@mui/material"
+
+import { CardLayout } from "components"
 
 const tags = [
   {
@@ -23,14 +25,7 @@ const tags = [
 import styles from "./Style.module.css"
 
 const RolesInformation = () => (
-  <Card
-    sx={{
-      minWidth: 313,
-      borderRadius: "17px",
-      border: "1px solid #DCDCE0",
-      boxShadow: "none",
-    }}
-  >
+  <CardLayout>
     <CardContent>
       <Typography sx={{ color: "#3E3E3E" }}>Roles</Typography>
 
@@ -87,7 +82,7 @@ const RolesInformation = () => (
     >
       <Typography>you can select more than one</Typography>
     </CardActions>
-  </Card>
+  </CardLayout>
 )
 
 export default RolesInformation
